@@ -1,45 +1,73 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background.jpg");
+    padding-top: 60px;
 }
 
 h1 {
-    color: #140101ce;
+    color: #f8fbfb;
     text-align: center;
     font-weight: bold;
-    border: 1px solid #000000ce;
     padding: 10px;
-    width: 100%;
-    margin: 20px auto;
-    background-color: #b6b5ba;
-
+     width: 70%;
+    margin: 30px auto;
+    background-color: #2e4356;
+    background-image: url("meteors.jpg");
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px 5px #37393dbd;
 }
-img {
+
+img { 
     display: block;
     margin: 0 auto;
-    width: 40%;
-    opacity: 0.5;
-    box-shadow: 0px 4px 10px 5px #000000ce;
+    opacity: 0.70;
+    box-shadow: 3px 3px 8px 5px #111729bd;
+    border-radius: 100px;
 }
 
 p { 
     color: #000000;
-    text-align: center; 
-    padding: 5px;
-    width: 100%;
-    background-color: #af95958d;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+     border-radius: 60px;
+     margin: 30px auto;
+     background-color: #bac3c3;
+     
 }
 
 a:hover {
-    color: #261669;
-    text-decoration: none;
-    font-weight: bold;
+    color: #3579a2;
+    text-decoration: underline;
 }
 
-. dashboard-tabs {
+.dashboard-tabs {
     display: flex;
-    background-color: #b6b5ba;
+    background-image: url("meteors.jpg");
+      border-radius: 10px;
+    margin-bottom: 30px;
+    gap: 40px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    box-shadow: 3px 3px 8px 5px #434756bd;
+
+    a {
+    color: #000000;
+    text-decoration: none;
+    }
+}
+
+.tab-item {
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 20px;
-    gap: 10px;
+    background-color: #e7eedb;
+    cursor: pointer;
+
+}
+
+.tab-item:hover {
+    background-color: #cbe1e568;
+    color: #000000
 }
