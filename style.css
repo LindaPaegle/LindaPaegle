@@ -32,9 +32,9 @@ p {
     color: #000000;
     text-align: center;
     padding: 10px;
-    width: 30%;
-     border-radius: 60px;
-     margin: 30px auto;
+    width: 40%;
+     border-radius: 40px;
+     margin: 10px auto;
      background-color: #bac3c3;
      
 }
@@ -55,12 +55,11 @@ a:hover {
     margin-right: auto;
     font-weight: 600;
     box-shadow: 3px 3px 8px 5px #434756bd;
-
+}
     a {
     color: #000000;
     text-decoration: none;
     }
-}
 
 .tab-item {
     padding: 10px;
@@ -73,4 +72,8 @@ a:hover {
 .tab-item:hover {
     background-color: #cbe1e568;
     color: #000000
+}
+
+body.no-bg {
+    background-image: none;
 }
