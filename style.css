@@ -80,15 +80,36 @@ a:hover {
 
 body.no-bg {
     background-image: none;
-
-    body.alt-page {
-    background-image: url("space-bg.jpg");
 }
 
-.alt-page h1 {
-    background-image: url("space-bg.jpg");
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #f8fbfb;
+    box-shadow: 3px 3px 8px 5px #37393dbd;
 }
 
-.alt-tabs {
-    background-image: url("space-bg.jpg");
+th, td {
+    border: 1px solid #2e4356;
+    padding: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+thead th {
+    background-color: #2e4356;
+    color: #f8fbfb;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #cbe1e5;
+}
+
+tbody tr:hover {
+    background-color: #e7eedb;
 }
