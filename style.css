@@ -76,4 +76,15 @@ a:hover {
 
 body.no-bg {
     background-image: none;
+
+    body.alt-page {
+    background-image: url("space-bg.jpg");
+}
+
+.alt-page h1 {
+    background-image: url("space-bg.jpg");
+}
+
+.alt-tabs {
+    background-image: url("space-bg.jpg");
 }
