@@ -48,6 +48,19 @@ a:hover {
     text-decoration: underline;
 }
 
+.big-block {
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #2e4356;
+    box-shadow: 3px 3px 8px 5px #37393dbd;
+}
+
+.big-block p {
+    background-color: #bac3c3;
+}
+
 .dashboard-tabs {
     display: flex;
     background-image: url("meteors.jpg");
