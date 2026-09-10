@@ -36,10 +36,10 @@ p {
     color: #000000;
     text-align: center;
     padding: 10px;
-    width: 40%;
-     border-radius: 40px;
-     margin: 10px auto;
-     background-color: #bac3c3;
+    width: 70%;
+     border-radius: 30px;
+     margin: 30px auto;
+     background-color: #bcced8;
      
 }
 
@@ -48,17 +48,9 @@ a:hover {
     text-decoration: underline;
 }
 
-.big-block {
-    width: 70%;
-    margin: 30px auto;
-    padding: 30px;
-    border-radius: 30px;
-    background-color: #2e4356;
-    box-shadow: 3px 3px 8px 5px #37393dbd;
-}
-
-.big-block p {
-    background-color: #bac3c3;
+.side-img {
+    width: 170px;
+    flex-shrink: 0;
 }
 
 .dashboard-tabs {
@@ -126,3 +118,23 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
     background-color: #c2cbdd;
 }
+.big-block {
+    position: relative;
+    border: 3px solid #f8fbfb;
+    padding: 30px;
+   
+}
+.quote {
+    font-size: 1.3em;
+    font-style: italic;
+    width: 100%;
+    padding: 10px;
+}
+
+.big-block {
+    width: 60%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 8px 5px #37393dbd;
+    background-color: #0e1d2c;
