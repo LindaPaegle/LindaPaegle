@@ -124,6 +124,7 @@ tbody tr:hover {
     padding: 30px;
    
 }
+
 .quote {
     font-size: 1.3em;
     font-style: italic;
@@ -138,3 +139,20 @@ tbody tr:hover {
     border-radius: 30px;
     box-shadow: 3px 3px 8px 5px #37393dbd;
     background-color: #0e1d2c;
+    
+    .corner-icon {
+    position: absolute;
+    width: 30px;
+    opacity: 1;
+    box-shadow: none;
+    border-radius: 0;
+    filter: brightness(0) invert(1);
+}
+
+.top-left     { top: 10px; left: 10px; }
+.top-right    { top: 10px; right: 10px; }
+.bottom-left  { bottom: 10px; left: 10px; }
+.bottom-right { bottom: 10px; right: 10px; }
+
+}
+
