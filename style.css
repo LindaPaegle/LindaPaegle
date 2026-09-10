@@ -86,19 +86,18 @@ a:hover {
 body.no-bg {
     background-image: none;
 }
-
 table {
-    width: 60%;
+    width: 50%;
     margin: 100px auto;
     border-collapse: collapse;
     border-radius: 10px;
     background-color: #6491d1bf;
-    box-shadow: 3px 3px 8px 5px #0d1421ca;
+    box-shadow: 3px 3px 8px 5px #4d5e80de;
 }
 
 th, td {
-    border: 1px solid #010407;
-    padding: 5px;
+    border: 1px solid #1f5e9d;
+    padding: 3px;
     text-align: center;
     color: #000000;
     font-weight: bold;
@@ -107,7 +106,7 @@ th, td {
 thead th {
     background-color: #0e1d2c;
     color: #304343;
-    font-size: 1.05em;
+    font-size: 1.01em;
     font-weight: bold;
 }
 
@@ -139,20 +138,4 @@ tbody tr:hover {
     border-radius: 30px;
     box-shadow: 3px 3px 8px 5px #37393dbd;
     background-color: #0e1d2c;
-    
-    .corner-icon {
-    position: absolute;
-    width: 30px;
-    opacity: 1;
-    box-shadow: none;
-    border-radius: 0;
-    filter: brightness(0) invert(1);
 }
-
-.top-left     { top: 10px; left: 10px; }
-.top-right    { top: 10px; right: 10px; }
-.bottom-left  { bottom: 10px; left: 10px; }
-.bottom-right { bottom: 10px; right: 10px; }
-
-}
-
