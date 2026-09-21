@@ -139,32 +139,3 @@ tbody tr:hover {
     box-shadow: 3px 3px 8px 5px #37393dbd;
     background-color: #0e1d2c;
 }
-
-.hidden-checkbox {
-    display: none;
-}
-
-#musicBtn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.6rem 1.2rem;
-    border: none;
-    border-radius: 8px;
-    background-color: #37393d;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-#musicBtn:hover {
-    background-color: #555;
-}
-
-#player {
-    display: none;
-    margin-top: 1rem;
-}
-
-#musicToggle:checked ~ #player {
-    display: block;
-}
