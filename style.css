@@ -139,3 +139,18 @@ tbody tr:hover {
     box-shadow: 3px 3px 8px 5px #37393dbd;
     background-color: #0e1d2c;
 }
+
+.circle {
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #0e1d2c;
+}
+
+.what { width: 150px; height: 100px; background: #445c69; margin: 30px auto; }
+.how  { width: 100px; height: 70px; background: #5e85bb; }
+.why  { width: 70px; height: 50px; background: #77c2dc; justify-content: center; padding: 0; }
